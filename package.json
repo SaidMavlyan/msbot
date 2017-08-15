@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "botbuilder": "^3.9.0",
+    "dotenv-extended": "^1.0.4",
+    "restify": "^5.0.1"
+  }
+}
