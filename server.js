@@ -1,7 +1,7 @@
 require('dotenv-extended').load();
 var builder = require('botbuilder');
 var restify = require('restify');
-var SearchDialogs = require('./dialog');
+var SearchDialogs = require('./src/dialog');
 
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {

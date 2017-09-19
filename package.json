@@ -1,5 +1,6 @@
 {
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "bluebird": "^3.4.7",
     "botbuilder": "^3.9.0",
