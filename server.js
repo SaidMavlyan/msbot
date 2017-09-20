@@ -1,4 +1,3 @@
-require('dotenv-extended').load();
 var builder = require('botbuilder');
 var restify = require('restify');
 var SearchDialogs = require('./src/dialog');
