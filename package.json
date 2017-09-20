@@ -1,9 +1,7 @@
 {
-  "private": true,
   "main": "server.js",
   "dependencies": {
     "botbuilder": "^3.9.0",
-    "dotenv-extended": "^1.0.4",
     "restify": "^4.3.1"
   }
 }
