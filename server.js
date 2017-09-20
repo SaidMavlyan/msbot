@@ -14,8 +14,8 @@ var bot = new builder.UniversalBot(connector, function (session) {
     session.send('Sorry, I did not understand \'%s\'. Type \'help\' if you need assistance.', session.message.text);
 });
 
-var recognizer = new builder.LuisRecognizer(process.env.LUIS_MODEL_URL);
-bot.recognizer(recognizer);
+// var recognizer = new builder.LuisRecognizer(process.env.LUIS_MODEL_URL);
+// bot.recognizer(recognizer);
 
 bot.dialog('SearchPizza', SearchDialogs.dialog)
     .triggerAction({ matches: 'SearchPizza' });
